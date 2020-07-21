@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <remote  name="aosp"
+          fetch="https://android.googlesource.com/"/>
+
+ <default revision="refs/tags/android-8.1.0_r14"
+           remote="aosp" />
+
+  <project path="packages_apps_Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="system_core" name="platform/system/core" />
+  <project path="system_bt" name="platform/system/bt" />
+</manifest>
+
+
+
+
